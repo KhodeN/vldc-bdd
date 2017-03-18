@@ -1,0 +1,21 @@
+{
+  "name": "step2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.5.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "karma-mocha-reporter": "^2.2.2"
+  },
+  "devDependencies": {
+    "karma-firefox-launcher": "^1.0.1",
+    "karma-phantomjs-launcher": "^1.0.4"
+  },
+  "scripts": {
+    "tests": "karma start"
+  }
+}
