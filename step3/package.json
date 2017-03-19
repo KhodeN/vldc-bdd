@@ -1,0 +1,14 @@
+{
+  "name": "step3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "webdriver-manager update",
+    "start": "webdriver-manager start",
+    "test": "protractor conf.js"
+  },
+  "devDependencies": {
+    "protractor": "^5.1.1"
+  }
+}
